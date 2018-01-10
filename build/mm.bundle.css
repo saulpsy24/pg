@@ -10595,7 +10595,7 @@ a.button {
 
 .bar-content {
   border-color: transparent;
-  background-color: #f98012;
+  background-color: #0f4c83;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #ffffff; }
   .bar-content .title {
@@ -13237,7 +13237,7 @@ li.mm-question-answer-incorrect,
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #f98012;
+  background-color: #0f4c83;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #ffffff;
   height: 80px !important; }
