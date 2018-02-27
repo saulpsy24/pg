@@ -46,7 +46,14 @@
    top: calc(constant(safe-area-inset-top) + #{$nav-height});
    top: calc(env(safe-area-inset-top) + #{$nav-height});
        }
-
+       .scroll-content{
+       margin-bottom: constant(safe-area-inset-bottom); /* iOS 11.0 */
+ margin-bottom: env(safe-area-inset-bottom); /* iOS 11.2 */
+       }
+       #ion-view{
+        margin-bottom: constant(safe-area-inset-bottom); /* iOS 11.0 */
+ margin-bottom: env(safe-area-inset-bottom); /* iOS 11.2 */
+       }
       
     </style><!-- Empty style to make easier to test styles using Inspector. -->
     
