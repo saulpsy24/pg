@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name=”viewport” content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, viewport-fit=cover">
     <meta http-equiv="Content-Security-Policy" content="default-src * filesystem: cdvfile: file: gap: https://ssl.gstatic.com; img-src * filesystem: gap: data: cdvfile: file: https://ssl.gstatic.com android-webview-video-poster: blob:; style-src 'self' 'unsafe-inline' filesystem: cdvfile: file:; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://localhost:* filesystem: cdvfile: file:; media-src * filesystem: cdvfile: file: gap: blob:">
-    <title>Moodle Desktop</title> <!-- Title is used in desktop, but should be ignored in mobile apps. -->
+    <title>CONAMAT DESKTOP</title> <!-- Title is used in desktop, but should be ignored in mobile apps. -->
     <link href="build/mm.bundle.css" rel="stylesheet">
     <script src="lib/ionic/release/js/ionic.bundle.min.js"></script>
     <script src="cordova.js"></script>
@@ -25,11 +25,11 @@
     <script src="build/mm.bundle.js"></script>
      <style type="text/css">
         body{
-            margin: 0;
             padding-top: constant(safe-area-inset-top);
             padding-top: env(safe-area-inset-top);
             background-color: #0f4c83;
-            text-align: center;
+            margin-bottom: constant(safe-area-inset-bottom);
+            margin-bottom: env(safe-area-inset-bottom);          
         }
 
       
