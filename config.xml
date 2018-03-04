@@ -52,6 +52,7 @@
     <preference name="KeyboardDisplayRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="FadeSplashScreenDuration" value="0"/>
+    <preference name="StatusBarBackgroundColor" value="#0f4c83" />
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
