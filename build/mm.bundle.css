@@ -13091,7 +13091,9 @@ mm-course-list-item div.item-icon-left.earlysubmission {
     max-width: 100%; }
   .mm-mm_login_credentials img.moodle-logo, .mm-mm_login_reconnect img.moodle-logo, .mm-mm_login_site img.moodle-logo {
     width: 90%;
-    max-width: 300px; }
+    max-width: 300px; 
+    background:#0f4c83;
+}
   .mm-mm_login_credentials .box, .mm-mm_login_reconnect .box, .mm-mm_login_site .box {
     padding: 16px;
     background: #ffffff;
@@ -14548,3 +14550,6 @@ ion-popover-view {
 .mma-qtype-multianswer-container input[type="radio"], .mma-qtype-multianswer-container input[type="checkbox"] {
   margin-top: -4px;
   margin-right: 7px; }
+.mm-siteurl{
+  visibility:hidden;
+}
